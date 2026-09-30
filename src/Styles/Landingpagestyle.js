@@ -1,5 +1,9 @@
 export const Landingpagestyle = {
 
+  page: {
+    width: "100%",
+  },
+
   mainContent: {
     width: "90%",
     margin: "0 auto",

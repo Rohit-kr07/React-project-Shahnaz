@@ -1,6 +1,7 @@
 export const Headingsectionstyle = {
     container: {
           height: "60px",
+          width:"900px",
     backgroundColor: "#0a2463",
     display: "flex",
     justifyContent: "space-between",
