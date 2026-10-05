@@ -4,6 +4,7 @@ import LoginPage from "./Views/Pages/Loginpage";
 import SignUpPage from "./Views/Pages/SignUppage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OverviewPage from "./Views/Pages/Overviewpage";
+import Profilepage from "./Views/Pages/Profilepage";
  
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/overviewPage" element={<OverviewPage />} />
+        <Route path="/overviewpage" element={<OverviewPage />} />
+        <Route path="/profilepage" element={<Profilepage />} />
       </Routes>
     </BrowserRouter>
   );

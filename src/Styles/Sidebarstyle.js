@@ -1,7 +1,7 @@
 export const Sidebarstyle = {
     box: {
         width: "300px",
-        height: "550px",
+        height: "100vh",
         borderRight: "1px solid #4ECDC4",
         boxShadow: "2px 0 5px #4ecdc550",
         backgroundColor: "#FBFBFF",
@@ -59,7 +59,7 @@ export const Sidebarstyle = {
         fontSize: "12px",
         fontWeight: "bold",
         marginLeft: "15px",
-        marginTop: "20px",
+        marginTop: "40px",
         marginBottom: "10px",
     },
 
@@ -87,7 +87,7 @@ export const Sidebarstyle = {
       marginLeft:"40px",
     },
 acc:{
-    marginTop:"80px",
+    marginTop:"100px",
     fontSize:"small",
     fontWeight:"bold",      
     marginLeft:"15px",
