@@ -1,4 +1,3 @@
-
 import Headingsection from "../Components/Headingsection";
 import Sidebar from "../Components/Sidebar";
 import Overviewbox from "../Components/Overviewcomponents/Overviewbox";
@@ -10,10 +9,11 @@ const OverviewPage = () => {
 
             <Sidebar />
             <div style={Overviewstyle.seconddiv}>
-                
-            <Headingsection />
-            <Overviewbox/>
-</div>
+
+                <Headingsection />
+                <Overviewbox />
+
+            </div>
         </div>
     );
 };
