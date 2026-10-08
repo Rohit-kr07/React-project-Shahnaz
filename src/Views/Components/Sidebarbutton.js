@@ -1,27 +1,19 @@
+import React, { useState } from "react";
 
-import { Sidebarbutton } from "../../Styles/Sidebarbuttonstyle";
-
-const Sidebarbtn = ({ label, style, filled }) => {
-
+const Sidebarbtn = ({ label, style }) => {
+    const [hover, setHover] = useState(false);
 
     return (
-        <div>
-            <button
-                style={{
-                    ...Sidebarbutton.btn,
-                    ...style,
-
-                    border: `1px solid ${filled ? "#4ECDC4" : "transparent"
-                        }`,
-
-
-
-
-                }}
-
-            >
-                {label}
-            </button>
+        <div
+            style={{
+                ...style,
+                backgroundColor: hover ? "#4ECDC4" : "transparent",
+                color: hover ? "white" : "black",
+            }}
+            onMouseEnter={() => setHover(true)}
+            onMouseLeave={() => setHover(false)}
+        >
+            {label}
         </div>
     );
 };
