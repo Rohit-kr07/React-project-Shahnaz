@@ -38,27 +38,31 @@ const Sidebar = () => {
                 <p style={Sidebarstyle.heading}>
                     DASHBOARD
                 </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
 
-                <Sidebarbtn
-                    style={Sidebarstyle.a1}
-                    label="Overview"
-                    filled={true}
-                />
+                    <Sidebarbtn
+                        style={Sidebarstyle.a1}
+                        label="Overview"
 
-                <Sidebarbtn
-                    style={Sidebarstyle.a1}
-                    label="Profile settings"
-                />
+                    />
 
-                <Sidebarbtn
-                    style={Sidebarstyle.a1}
-                    label="Security"
-                />
+                    <Sidebarbtn
+                        style={Sidebarstyle.a1}
+                        label="Profile settings"
 
-                <Sidebarbtn
-                    style={Sidebarstyle.a1}
-                    label="Notification"
-                />
+                    />
+
+                    <Sidebarbtn
+                        style={Sidebarstyle.a1}
+                        label="Security"
+
+                    />
+
+                    <Sidebarbtn
+                        style={Sidebarstyle.a1}
+                        label="Notification"
+                    />
+                </div>
 
                 <p style={Sidebarstyle.heading}>
                     QUICK ACTION
@@ -73,7 +77,7 @@ const Sidebar = () => {
                 </p>
 
                 <Sidebarbtn
-                    style={Sidebarstyle.signout}
+                    style={{ ...Sidebarstyle.a1, ...Sidebarstyle.signout }}
                     label="Sign out"
                 />
 

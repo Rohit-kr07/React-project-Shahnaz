@@ -77,17 +77,16 @@ export const Sidebarstyle = {
         boxSizing: "border-box",
      marginLeft:"40px",
         cursor: "pointer",
-        ":hover": {
-        backgroundColor: "#4ECDC4",
-        color: "white",
-    },
+      
+  
+ 
     },
     signout:{
-      marginTop:"20px",
+      marginTop:"8px",
       marginLeft:"40px",
     },
 acc:{
-    marginTop:"100px",
+    marginTop:"90px",
     fontSize:"small",
     fontWeight:"bold",      
     marginLeft:"15px",
