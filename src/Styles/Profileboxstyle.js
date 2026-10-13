@@ -9,7 +9,7 @@ export const Profileboxstyle = {
         borderRadius: "30px",
         boxShadow: "0px -3px 3px 0px #4ECDC4",
         overflowX: "auto",
-    scrollbarWidth: "thin",
+        scrollbarWidth: "thin",
     },
     mainbox: {
         overflow: "hidden",
@@ -24,7 +24,7 @@ export const Profileboxstyle = {
     box2: {
         display: "flex",
         flexDirection: "row",
-        gap: "30px",
+        gap: "2px",
     },
     inpbx: {
         backgroundColor: "#F1F3F4",
@@ -34,7 +34,7 @@ export const Profileboxstyle = {
         width: "350px",
         marginTop: "5px",
         marginLeft: "40px",
-
+paddingLeft: "25px",
     },
     lbl: {
         marginLeft: "40px",
@@ -45,7 +45,7 @@ export const Profileboxstyle = {
     box3: {
         display: "flex",
         flexDirection: "row",
-        gap: "30px",
+        gap: "2px",
         marginTop: "20px",
     },
     street: {
@@ -59,24 +59,33 @@ export const Profileboxstyle = {
         borderRadius: "10px",
         border: "none",
         height: "70px",
-        width: "780px",
+        width: "760px",
         marginTop: "5px",
         marginLeft: "40px",
+        paddingLeft: "25px",
     },
-    btn:{
+    btn: {
         marginLeft: "500px",
-marginTop: "20px",
-marginBottom: "20px",
+        marginTop: "20px",
+        marginBottom: "20px",
+
     },
-    btn2:{
-        color:"black",
-        width:"150px",
-        height:"40px",
-   marginRight:"20px",
-    },
-    btn3:{
-       color:"black",
+    btn2: {
+        color: "black",
         width: "150px",
         height: "40px",
+        marginRight: "20px",
+     
+        borderRadius: "15px",
+        border: "1px solid #4ECDC4",
+    },
+    btn3: {
+        color: "black",
+        width: "150px",
+        height: "40px",
+        color: "white",
+          borderRadius: "15px",
+        border:"1px",
+        backgroundColor: "#4ECDC4",
     }
 };
