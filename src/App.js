@@ -5,6 +5,9 @@ import SignUpPage from "./Views/Pages/SignUppage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OverviewPage from "./Views/Pages/Overviewpage";
 import Profilepage from "./Views/Pages/Profilepage";
+import Securitypage from "./Views/Pages/Securitypage";
+import Notificationpage from "./Views/Pages/Notificationpage";
+import Helppage from "./Views/Pages/Helppage";
  
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/overviewpage" element={<OverviewPage />} />
         <Route path="/profilepage" element={<Profilepage />} />
+                <Route path="/Securitypage" element={<Securitypage />} />
+                   <Route path="/Notificationpage" element={<Notificationpage />} />
+                   <Route path="/Helppage" element={<Helppage />} />
       </Routes>
     </BrowserRouter>
   );

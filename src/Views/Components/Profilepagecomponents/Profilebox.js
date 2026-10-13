@@ -153,13 +153,13 @@ const Profilebox = () => {
         <div style={Profileboxstyle.btn}>
           <button
             style={Profileboxstyle.btn2}
+            >
             Cancel Changes
-          >
           </button>
           <button
             style={Profileboxstyle.btn3}
+            >
             Save Changes
-          >
           </button>
 
         </div>
