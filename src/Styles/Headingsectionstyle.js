@@ -11,6 +11,6 @@ export const Headingsectionstyle = {
     },
 
     heading: {
-        marginLeft: "70px",
+        marginLeft: "35px",
     },
 };
