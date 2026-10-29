@@ -15,7 +15,7 @@ export const Overviewstyle = {
     //overviewbox.js
     box1: {
         width: "900px",
-        height: "470px",
+        height: "490px",
         border: "1px solid #4ECDC4",
         marginTop: "30px",
         marginLeft: "40px",
@@ -64,5 +64,10 @@ heading1:{
 },
 text:{
   paddingLeft:"20px",
+  
+},
+text1:{
+  paddingLeft:"20px",
+  textAlign:"center",
 },
 };

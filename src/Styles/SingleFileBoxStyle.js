@@ -5,13 +5,13 @@ export const SingleFileBoxStyle = {
         color: "black",
         textAlign: "center",
         padding: "10px",
-        marginBottom: "8px",
+        marginBottom: "15px",
         borderRadius: "7px",
         fontSize: "small",
-        width: "540px",
-  marginLeft: "290px",
-
-  height: "15px",
+        width: "590px",
+        marginLeft: "290px",
+        height: "20px",
+     
     },
 
 

@@ -13,14 +13,14 @@ export const Boxesstyle = {
     heading: {
         fontSize: "16px",
        
-        marginLeft: "10px",
-        marginTop: "10px",
+        marginLeft: "15px",
+        marginTop: "12px",
         marginBottom: "5px",
     },
     description: {
         fontSize: "14px",
-        margin: "0",
-        marginLeft: "10px",
-      
+      marginTop:"-1px",
+        marginLeft: "15px",
+  
     },
 };

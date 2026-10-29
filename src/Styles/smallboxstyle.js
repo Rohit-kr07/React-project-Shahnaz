@@ -8,6 +8,7 @@ export const Smallboxstyle = {
         borderRadius: "20px",
         backgroundColor: "#F1F3F4",
         paddingLeft: "10px",
+       
     },
     para: {
         fontSize: "13px",

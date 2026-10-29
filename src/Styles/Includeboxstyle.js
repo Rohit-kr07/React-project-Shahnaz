@@ -8,18 +8,21 @@ container: {
   borderRadius: "20px",
   backgroundColor: "#fbfbff",
   marginBottom: "30px",
-
+marginLeft:"25px",
+   
 
 },
 
 template: {
- marginLeft: "-10px",
 
+ paddingLeft:"30px",
 
 },
 para: {
  marginTop: "-10px",
   fontSize: "14px",
+  maxWidth:"315px",
+  paddingLeft:"30px",
 }
 
 };

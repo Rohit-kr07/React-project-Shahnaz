@@ -20,6 +20,7 @@ const Helpbox = () => {
                 <Boxes heading="Is my data secure?" description="This is a demo application that stores data in your browser LocalStorage.In a production app,data would be encrypted and stored securely on servers." />
                 <Boxes heading="How do I change my password?" description="Go to 'security' in your sidebar,enter your current password ,then set and confirm your new password." />
             </div>
+            <div style={Helpboxstyle.boxx}>
             <h4>
                 <i className="fa-solid fa-phone" style={Helpboxstyle.icon}></i>
                 &nbsp;&nbsp;Contact Support
@@ -28,6 +29,7 @@ const Helpbox = () => {
                 This is a demonstration application for learning web development.in a real
                 application,you would find contact information and support options here.
             </p>
+            </div>
         </div>
     );
 };
