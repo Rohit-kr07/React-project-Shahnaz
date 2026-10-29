@@ -14,6 +14,9 @@ export const Helpboxstyle = {
      heading: {
         marginLeft: "40px",
     },
+    boxx:{
+        marginBottom:"30px",
+    },
     icon: {
         marginLeft: "32px",
      

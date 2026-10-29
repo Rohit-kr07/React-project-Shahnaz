@@ -119,6 +119,7 @@ export const SignUpstyle = {
     fontWeight: "600",
     cursor: "pointer",
     marginBottom: "20px",
+    border:"1px solid #4ECDC4"
   },
 
   signInContainer: {

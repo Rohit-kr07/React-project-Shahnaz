@@ -30,7 +30,7 @@ export const Notificationboxstyle = {
         flexDirection: "row",
         gap: "30px",
         marginLeft: "40px",
-        marginTop: "30px",
+        marginTop: "35px",
     },
 
     smallbox: {
@@ -56,6 +56,7 @@ export const Notificationboxstyle = {
         fontSize: "16px",
         display: "inline-block",
         marginTop: "5px",
+        fontWeight:"bold",
     },
 
     para: {

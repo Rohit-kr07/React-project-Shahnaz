@@ -1,6 +1,6 @@
 export const Profileboxstyle = {
     box1: {
-        width: "860px",
+        width: "880px",
         height: "500px",
         border: "1px solid #4ECDC4",
         marginTop: "30px",
@@ -20,6 +20,7 @@ export const Profileboxstyle = {
     },
     text: {
         marginLeft: "40px",
+        fontWeight:"bold",
     },
     box2: {
         display: "flex",
@@ -59,13 +60,13 @@ paddingLeft: "25px",
         borderRadius: "10px",
         border: "none",
         height: "70px",
-        width: "760px",
+        width: "770px",
         marginTop: "5px",
         marginLeft: "40px",
         paddingLeft: "25px",
     },
     btn: {
-        marginLeft: "500px",
+        marginLeft: "510px",
         marginTop: "20px",
         marginBottom: "20px",
 

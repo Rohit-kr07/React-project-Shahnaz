@@ -26,6 +26,8 @@ const Overviewbox = () => {
                         textDecoration: "none",
                         color: "inherit",
                         display: "block",
+                          textAlign:"center",
+                       
                     }}
                 >
                     <Smallbox
@@ -34,7 +36,7 @@ const Overviewbox = () => {
                     />
                 </Link>
 
-                <Smallbox style={Overviewstyle.text} title="Change Password" description="Update your account security." />
+                <Smallbox style={Overviewstyle.text1} title="Change Password" description="Update your account security." />
 
             </div>
 
